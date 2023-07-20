@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.pricing {
+    margin-top: 5rem;
+}
+
+.pricing h1 span {
+    color: #2C5DFE;
+}
+
+.pricing h1 {
+    border-bottom: 1px solid #2C5DFE;
+    padding-bottom: 10px;
+    font-family: Bebas Neue;
+}
+
+.pricing .flex.flex-col.justify-center.items-center {
+    gap: 24px;
+}
+
+.pricing .select_plan {
+    color: #767982;
+}
+
+.pricing .basic-card {
+    display: flex;
+    gap: 60px;
+}
+
+.text-left {
+    width: 60%;
+    float: left;
+}
+
+input.sr-only.peer:focus,
+input.sr-only.peer:active,
+input.sr-only.peer {
+    border: none !important;
+}
+
+/* .text-5xl {
+    font-size: 96px;
+    line-height: 1;
+} */
